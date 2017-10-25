@@ -4,27 +4,35 @@
   box-sizing: border-box;
 }
 
-html, body, main{
+html, body{
   font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
   padding: 0;
+  margin: 0;
 }
 
 header {
   background-color: dimgrey;
   color: white;
   margin: 0;
-  padding: 20px auto;
+  padding: 16px;
 }
 
 h1 {
   font-size: 24px;
   font-weight: bolder;
   text-align: center;
+  margin: 0;
+}
+
+main {
+  marign: 0;
+  padding: 0 30px;
 }
 
 nav {
-  margin: 0 auto;
+  margin: 0 auto 10px;
   text-align: center;
+  padding: 1px;
 }
 
 .menuitem {
@@ -38,14 +46,19 @@ nav {
 }
 
 .photocounter {
-  background-color: lime;
+  background-color: aquamarine;
   font-size: 14px;
-  font-weight: bolder;
-  padding: 8px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.photocounter span {
+  font-weight: bold;
+  border-bottom: 3px solid gold;
 }
 
 .gallery {
-
+  margin: 12px 0;
 }
 
 .row {
@@ -63,7 +76,7 @@ nav {
 }
 
 footer {
-  margin: auto;
+  margin: 0 auto;
   padding: 15px;
   text-align: center;
   background-color: black;
