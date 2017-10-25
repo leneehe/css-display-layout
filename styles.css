@@ -81,7 +81,7 @@ nav {
   margin: 0;
 }
 
-.middle {
+.photo:nth-child(2) {
   margin: 0 0.2%;
 }
 
