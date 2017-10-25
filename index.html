@@ -3,52 +3,70 @@
   <head>
     <meta charset="utf-8">
     <title>Bitmaker Photo Gallery</title>
+    <!-- css normalize -->
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssnormalize/cssnormalize-min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
     <header>
-      Bitmaker Photo Gallery
+      <h1>Bitmaker Photo Gallery</h1>
     </header>
     <main>
       <nav>
-        <div class="">
+        <div class="menuitem">
           Home
         </div>
-        <div class="">
-          Add
+        <div class="menuitem">
+          Add a photo
         </div>
-        <div class="">
+        <div class="menuitem">
           About
         </div>
       </nav>
 
-      <section class="">
-        There are 6 photos
+      <section class="photocounter">
+        There are <span class="">6</span> photos
       </section>
 
-      <section>
+      <section class="gallery">
         <!-- row 1 -->
-        <div class="">
-          <div class="">
+        <div class="row">
+          <div class="photo">
             <!-- photo 1 -->
+            <img src="https://picsum.photos/300/400/?random" alt="photo 1">
+            <div class="modify">
+              <a href="#">Edit</a> | <a href="#">Delete</a>
+            </div>
           </div>
-          <div class="">
+          <div class="photo">
             <!-- photo 2 -->
+            <img src="https://picsum.photos/300/400/?random" alt="photo 2">
+            <div class="modify">
+              <a href="#">Edit</a> | <a href="#">Delete</a>
+            </div>
           </div>
-          <div class="">
+          <div class="photo">
             <!-- photo 3 -->
+            <img src="https://picsum.photos/300/400/?random" alt="photo 3">
+            <div class="modify">
+              <a href="#">Edit</a> | <a href="#">Delete</a>
+            </div>
           </div>
         </div>
-        
+
         <!-- row 2 -->
-        <div class="">
+        <div class="row">
           <div class="">
             <!-- photo 1 -->
+            <img src="https://picsum.photos/300/400/?random" alt="photo 4">
           </div>
-          <div class="">
+          <div class="photo">
             <!-- photo 2 -->
+            <img src="https://picsum.photos/300/400/?random" alt="photo 5">
           </div>
-          <div class="">
+          <div class="photo">
             <!-- photo 3 -->
+            <img src="https://picsum.photos/300/400/?random" alt="photo 6">
           </div>
         </div>
       </section>
